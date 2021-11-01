@@ -1,0 +1,37 @@
+{
+  "name": "HomeTabstick",
+  "version": "0.0.0.2",
+  "description": "Changes your new tab with a useful page with an easy management of your bookmarks",
+  "manifest_version": 3,
+  "permissions": ["storage", "contextMenus", "tabs", "activeTab", "declarativeNetRequest", "declarativeNetRequestFeedback"],
+  "chrome_url_overrides" : {
+    "newtab": "home.html"
+  },
+  "background": {
+    "service_worker": "sample.js"
+  },
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  },
+  "host_permissions": [
+    "http://casita.add/*"
+  ],
+  "icons": {
+    "16": "images/icons/casita16.png",
+    "48": "images/icons/casita48.png",
+    "128": "images/icons/casita128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Click Me",
+    "default_icon": {
+      "16": "images/icons/casita16.png",
+      "24": "images/icons/casita48.png",
+      "32": "images/icons/casita48.png"
+    }
+  }
+}

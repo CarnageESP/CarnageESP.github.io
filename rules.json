@@ -1,0 +1,8 @@
+[
+  {
+    "id": 2,
+    "priority": 2,
+    "action": { "type": "redirect", "redirect": { "regexSubstitution": "chrome-extension://eldacaomnahiiaddocgpiboejiagdcmp/home.html?import=\\1"} },
+    "condition": { "regexFilter": "^http://casita\\.add/(.*)", "resourceTypes": ["main_frame"] }
+  }
+]

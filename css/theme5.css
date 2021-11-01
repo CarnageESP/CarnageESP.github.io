@@ -1,0 +1,51 @@
+body {
+    background-color: #556270 !important;
+}
+
+.block {
+    box-shadow: 0px 0px 6px #e4c4f5 !important;
+}
+
+.block-title {
+    background: linear-gradient(to bottom, #FF6B6B, #C44D58); !important;
+}
+
+.block-name {
+    color: #C7F464 !important;
+}
+
+.block-content {
+    background-color: #4ECDC4 !important;
+}
+
+.bookmark-line:hover {
+    background-color: #C44D58 !important;
+}
+
+.bookmark-name {
+    color: #302d50 !important;
+}
+
+.sidenav {
+    background-color: #40a53e !important;
+}
+
+.sidenav a {
+    color: #818181 !important;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1 !important;
+}
+
+.topcorner {
+    color: #b8b6b4 !important;
+}
+
+.topcorner:hover {
+    color: #ffffff !important;
+}
+
+.highlight {
+    background-color: yellow !important;
+}
