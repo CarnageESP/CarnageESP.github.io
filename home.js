@@ -127,9 +127,9 @@ $(document).ready(function () {
   processPendingAdded();
 
   //Add listener for refresh
-  if (chrome.runtime!=null){
+  /*if (chrome.runtime!=null){
     chrome.runtime.onMessage.addListener(processResponse);
-  }
+  }*/
 
   $("#saveData").click(function () {
     serializeData();
@@ -222,7 +222,7 @@ function closeNav() {
   document.getElementById("optionMenu").style.height = "0";
 }
 
-if (chrome.runtime !== undefined){
+/*if (chrome.runtime !== undefined){
   chrome.runtime.onMessage.addListener(
       function (request, sender, sendResponse) {
         if (request.comando === "forceRefresh") {
@@ -235,4 +235,4 @@ if (chrome.runtime !== undefined){
           console.log("toca guardar");
         }
       });
-}
+}*/
