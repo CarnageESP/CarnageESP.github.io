@@ -3,6 +3,12 @@
         <script src="https://accounts.google.com/gsi/client" async defer></script>
     </head>
     <body>
+        <script type="text/javascript">
+            function handleCredentialResponse(response) {
+                console.log(response);
+            }
+        </script>
+        
         <div id="g_id_onload"
             data-client_id="707936014478-o815mgtrhj2fdumgehafoirhmoi42sbf.apps.googleusercontent.com"
             data-context="signin"
